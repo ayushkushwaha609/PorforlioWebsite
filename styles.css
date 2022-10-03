@@ -1,0 +1,129 @@
+.top-container
+{
+    padding-top:100px;
+    background-color: #E3FDFD; 
+
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 10px 0;
+}
+body{
+   
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+
+h1{
+    color:#66BFBF;
+    margin-top: 0;
+    margin: 50px;
+    margin: 50px auto 0px auto;
+    font-family : 'Sacramento', cursive;
+    font-size:562.5% ;
+ /* 100%=16px =1em there is actually a term called (rem) in css3 that is used to overide all the parent font sizes ans just apply the current one */
+}
+p{
+    color:#11999E;
+    font-weight:normal;
+    font-family: 'Montserrat',sans-serif;
+    /* font-size:250%; */
+    line-height: 2;
+    
+
+}
+h3{
+    color:#11999E;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.web{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    bottom:500px;
+}
+a{
+    color:#0e9c9c;
+
+}
+
+
+
+.display{
+    display: inline-block;
+    margin: 0px;
+
+}
+
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.image-webD{
+    padding-right: 20px;
+    width: 25%;
+    float: left;
+}
+.image-photoG{
+    width:25%;
+    float:right;
+}
+
+
+    
+.icon-credit{
+    font-size: 10px;;
+}
+    
+.footer-link{
+    margin-left: 8px;;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+.btn {
+    background: #34d9b0;
+    background-image: -webkit-linear-gradient(top, #34d9b0, #13bf94);
+    background-image: -moz-linear-gradient(top, #34d9b0, #13bf94);
+    background-image: -ms-linear-gradient(top, #34d9b0, #13bf94);
+    background-image: -o-linear-gradient(top, #34d9b0, #13bf94);
+    background-image: linear-gradient(to bottom, #34d9b0, #13bf94);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1e9469;
+    background-image: -webkit-linear-gradient(top, #1e9469, #13ab5a);
+    background-image: -moz-linear-gradient(top, #1e9469, #13ab5a);
+    background-image: -ms-linear-gradient(top, #1e9469, #13ab5a);
+    background-image: -o-linear-gradient(top, #1e9469, #13ab5a);
+    background-image: linear-gradient(to bottom, #1e9469, #13ab5a);
+    text-decoration: none;
+  }
